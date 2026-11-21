@@ -1,0 +1,40 @@
+GUAYADEQUE · MI LIGA DE PÁDEL
+=============================
+
+QUÉ INCLUYE
+- index.html: aplicación completa; los resultados se guardan localmente.
+- manifest.webmanifest, sw.js y dos iconos PNG: instalación como PWA y uso sin conexión.
+
+CÓMO PROBARLA YA
+Abre index.html en un navegador de ordenador. También puedes compartir el HTML
+al móvil y abrirlo allí, aunque algunos navegadores no permiten almacenamiento
+persistente al abrir archivos locales (file://). Para un uso fiable, publícala.
+
+CÓMO INSTALAR COMO PWA (GRATIS)
+1. Crea un repositorio público en GitHub, por ejemplo guayadeque-padel.
+2. Sube los cinco archivos (sin necesidad de subir este LEEME.txt) a la raíz.
+3. En GitHub: Settings -> Pages -> Deploy from a branch -> main -> /(root).
+4. Abre la URL HTTPS que GitHub Pages te proporciona.
+5. Android/Chrome: menú del navegador -> Instalar aplicación o Añadir a pantalla de inicio.
+   iPhone/Safari: Compartir -> Añadir a pantalla de inicio.
+6. Abre una vez la PWA con conexión. Luego funcionará sin conexión.
+
+CÓMO USARLA
+- La pestaña Pendientes muestra todos los rivales todavía sin resultado.
+- Edita un partido e introduce los dos primeros sets y, si hubo, el tercero.
+- Deja los sets vacíos para mantener el partido pendiente.
+- Si vuelves a jugar contra el mismo rival, usa Otro partido.
+- El marcador siempre se escribe: Guayadeque - Rival.
+- Exportar resultados: crea un archivo JSON de respaldo.
+- Importar copia: reemplaza los resultados actuales por los de un respaldo.
+
+ATENCIÓN SOBRE LA CLASIFICACIÓN
+Las capturas muestran 3 partidos oficiales en la clasificación de Guayadeque,
+pero el fragmento del calendario parece mostrar más marcadores. Por prudencia,
+los 17 rivales empiezan pendientes. Introduce solo los resultados confirmados.
+
+PRIVACIDAD
+Sin cuentas, anuncios, analítica ni servidores de datos. Los resultados quedan
+en el almacenamiento local de cada navegador/dispositivo. No se sincronizan.
+Si borras los datos del navegador o la aplicación, puedes perder los resultados.
+Guarda copias de seguridad JSON regularmente.
